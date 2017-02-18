@@ -1,0 +1,1 @@
+alert("Hey guys! So, this is the basic set up the website. Each part of the site has a little somthing in it so it at least shows up in Github, because the folders will not show up if they are empty. So, feel free to adjust as you add content. Looks forward to working with you guys!");
