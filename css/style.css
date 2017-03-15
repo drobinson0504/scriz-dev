@@ -3,6 +3,74 @@
     padding: 0 auto;
 }
 body{
-    background-color: darkslategray;
+    background-color: darkslategray !important;
 }
-p{color:white;}
+
+.jumbotron{
+     height: 150px !important;
+    background-color:grey !important;
+  
+}
+#logo {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 186px;
+    /* border: 2px solid red; */
+    bottom: 21px;
+}
+
+#navigation {
+    position: relative;
+    left: 617px;
+    width: 490px;
+    height: 50px;
+    border: 2px solid green;
+    bottom: 91px;
+}
+li{
+    position: relative;
+    color:white;
+    font-size: 2em;
+    padding: 20px;
+    text-align: center;
+}
+
+ol,
+li {
+    display: inline;
+}
+
+img{
+    border-radius: 10px;
+    }
+section{
+    position: relative;
+    display: flex;   
+    width: 90%;
+    min-height: auto;
+    border:2px solid green;
+}
+
+.row{
+    position: relative;
+ 
+    border: 2px solid red;
+    width: 90%;
+    min-height:auto;
+    margin: 10px;
+    left: 6% ;
+}
+
+
+footer{
+    position: fixed;
+    width: 100%;
+    min-height: 100px;
+    top:873px;
+    border: 2px solid red;
+    left:0;
+    background-color: grey;
+    
+}
+ 
