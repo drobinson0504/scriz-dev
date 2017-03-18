@@ -1,80 +1,126 @@
-*{
+* {
     margin: 0 auto;
     padding: 0 auto;
 }
-body{
+
+body {
     background-color: darkslategray !important;
+/*    background-image: url(../imgs/free-code-image.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.jumbotron{
-     height: 150px !important;
-    background-color:#100f10!important;
-  
+#body-mask {
+    position: absolute;
+    width: 100%;
+    height: 976px;
+    /*    border: 2px solid red;*/
+    background-color: black;
+    top: 97px;
+    opacity: .7;
 }
+
+.jumbotron {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    height: 110px !important;
+   background-color: #0e1818!important;
+    z-index: 100;
+}
+
 #logo {
     position: relative;
     width: 100px;
     height: 100px;
-    left: 186px;
+    left: 196px;
     /* border: 2px solid red; */
-    bottom: 21px;
+    bottom: 42px;
+}
+
+#banner {
+    position: absolute;
+    /*    border: 2px solid red;*/
+    top: 410px;
+    left: 500px;
+    z-index: 100;
 }
 
 #navigation {
     position: relative;
-    left: 617px;
+    left: 607px;
     width: 490px;
     height: 50px;
     border: 2px solid green;
-    bottom: 91px;
+    bottom: 121px;
 }
-li{
+
+
+
+li {
     position: relative;
-    color:white;
+    color: white;
     font-family: fantasy;
     font-size: 2em;
     padding: 30px;
-    text-align:center;
+    text-align: center;
 }
 
 ol,
 li {
     display: inline;
 }
-h3{
+
+h3 {
     text-align: center;
 }
 
-img{
-    border-radius: 10px;
-    }
-section{
+h6 {
     position: relative;
-    display: flex;   
+    top: 23px;
+    left: 876px;
+    color: whitesmoke !important;
+}
+
+img {
+    border-radius: 10px;
+}
+
+section {
+    position: relative;
+    display: flex;
     width: 90%;
     min-height: auto;
-/*    border:2px solid green;*/
+    background-image: url(../imgs/free-code-image.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    top: 1119px;
 }
 
-.row{
+.row {
     position: relative;
- 
-/*    border: 2px solid red;*/
+    /*    border: 2px solid red;*/
     width: 90%;
-    min-height:auto;
+    min-height: auto;
     margin: 10px;
-    left: 6% ;
+    left: 6%;
 }
 
+.thumbnail{
+    height: 463px;
+   
+}
 
-footer{
+.thumbnail {
+    background-color: transparent;
+}
+
+footer {
     position: fixed;
     width: 100%;
-    min-height: 100px;
-    top:873px;
-/*    border: 2px solid red;*/
-    left:0;
-    background-color: #1f818e;
-    
+    min-height: 60px;
+    top: 914px;
+    /* border: 2px solid red; */
+    left: 0;
+    background-color: #325b46;
 }
- 
