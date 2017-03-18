@@ -77,7 +77,7 @@ h3 {
 
 h6 {
     position: relative;
-    top: 23px;
+    top: 3px;
     left: 876px;
     color: whitesmoke !important;
 }
@@ -118,8 +118,8 @@ section {
 footer {
     position: fixed;
     width: 100%;
-    min-height: 60px;
-    top: 914px;
+    min-height: 16px;
+    top: 941px;
     /* border: 2px solid red; */
     left: 0;
     background-color: #325b46;
