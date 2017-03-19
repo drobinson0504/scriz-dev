@@ -120,7 +120,7 @@ li {
 
 h3 {
     text-align: center;
-    color: dimgrey;
+        color: #368cb7 !important;
 }
 
 img {
@@ -136,14 +136,14 @@ hr {
 #bottom {
     position: relative;
     top: -22px;
-    border: 1px solid lightseagreen;
+    border: 1px solid #665496;
     z-index: 100;
 }
 
 #location {
     position: relative;
     border: 2px solid transparent;
-    border-bottom-color: lightseagreen;
+    border-bottom-color: rgba(252, 251, 13, 0.28);
     width: 100%;
     float: left;
     height: 133px;
