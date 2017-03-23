@@ -88,17 +88,20 @@ body {
 
 #down-arrow {
     position: absolute;
+
 /*
     background-image: url(../imgs/down-arrow-2.png);
-    background-size: cover;
+    background-size: 132px auto;
     background-repeat: no-repeat;
 */
+
     top: 810px;
     left: 886px;
     width: 132px;
     height: auto;
     z-index: 100;
 }
+
 
 /*
 #down-arrow:hover{
@@ -150,7 +153,7 @@ hr {
     position: relative;
     top: -22px;
     border: 1px solid #665496;
-    z-index: 100;
+  
 }
 
 #location {
