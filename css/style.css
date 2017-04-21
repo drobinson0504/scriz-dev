@@ -53,7 +53,7 @@ body {
     height: 81px;
     /*    border: 2px solid red;*/
     top: 650px;
-    left: 38%;
+    left: 37.2%;
     z-index: 100;
 }
 
@@ -88,13 +88,11 @@ body {
 
 #down-arrow {
     position: absolute;
-
-/*
+    /*
     background-image: url(../imgs/down-arrow-2.png);
     background-size: 132px auto;
     background-repeat: no-repeat;
 */
-
     top: 810px;
     left: 886px;
     width: 132px;
@@ -136,7 +134,7 @@ li {
 
 h3 {
     text-align: center;
-        color: #368cb7 !important;
+    color: #368cb7 !important;
 }
 
 img {
@@ -153,29 +151,25 @@ hr {
     position: relative;
     top: -22px;
     border: 1px solid #665496;
-  
 }
 
 #location {
     position: relative;
     border: 2px solid transparent;
-    border-bottom-color: rgba(252, 251, 13, 0.28);
+    border-bottom-color: rgb(102, 84, 150);
     width: 100%;
     float: left;
     height: 133px;
     top: -20px;
     padding: 10px;
     text-align: center;
-     
     margin-bottom: 50px;
 }
 
 #location p {
-    color:whitesmoke;
+    color: whitesmoke;
     font-size: 20px;
-    
 }
-    
 
 section {
     position: relative;
