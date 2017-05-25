@@ -78,7 +78,7 @@
                 </div>
             </div>
 
-            <div class="col-sm-6 col-md-4">
+            <div class="col-sm-6 col-md-4 col-4">
                 <div class="thumbnail">
                     <img src="imgs/free-code-image.jpg" alt="...">
                     <div class="caption">
