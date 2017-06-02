@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -20,6 +21,8 @@
 
 
     <div class="jumbotron">
+    
+<!--    SCRZ CIRLCE LOGO-->
 <!--        <img id='logo' src="imgs/scrz-logo-circle-detail-2.png">-->
 
         <nav id="navigation">
@@ -28,15 +31,13 @@
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ol>
-
-
-        </nav>
+    </nav>
 
 
     </div>
-
+<!--SCRZ BANNER LOGO-->
     <img id="banner" src="imgs/scrz-logo-4.png">
-    <a href="#bottom"><img id="down-arrow" src="imgs/down-arrow-2.png"></a>
+    
     
 <!--
     <a href="#bottom">
@@ -52,7 +53,7 @@
 
 
 
-    <div id="body-mask"> </div>
+    <div id="body-mask"> <a href="#bottom"><img id="down-arrow" src="imgs/down-arrow-2.png"></a></div>
     <section>
 
         <div class="row">
@@ -61,7 +62,7 @@
                     <img src="imgs/free-code-image.jpg" alt="...">
                     <div class="caption">
                         <h3>Who we are</h3>
-                        <p>Lorem ipsum dolor sit amet, et propriae percipit his, decore partem accusata ea sea, verterem repudiandae sed ne. An vidit fabulas fuisset per, movet deseruisse theophrastus ut per. Ad libris partiendo aliquando sed. Cu quodsi aeterno eos, usu omnis possit civibus ne, eam ne veri periculis. Ut usu error pericula molestiae, expetendis consectetuer vis ei.</p>
+                        <p>We are a collective, movement, friends and a team. We are tinker'ers, volunteers, professionals, and leaders that come to together for a cause to help others improve their code and help businesses and individuals get themselves known on the World Wide Web. We share our ideas and work together to improve ourselves and build greatness. SCRZ Development is about the collaboration of the ideas from individuals that aim to make a difference.</p>
 
                     </div>
                 </div>
