@@ -5,7 +5,6 @@
 
 body {
     background-color: darkslategray !important;
-    /*    background-image: url(../imgs/free-code-image.jpg);*/
     background-size: 100% 941px;
     background-repeat: no-repeat;
 }
@@ -172,7 +171,6 @@ section {
     display: flex;
     width: 90%;
     min-height: auto;
-    /*    background-image: url(../imgs/free-code-image.jpg);*/
     background-size: cover;
     background-repeat: no-repeat;
     top: 960px;
@@ -223,15 +221,10 @@ section {
     padding-bottom: 2px;
 }
 
-#up-arrow {
-    position: relative;
-    top: -28px;
-    left: 810px;
-    z-index: 100;
-}
+ 
 
 footer {
-    position: fixed;
+    position: relative;
     width: 100%;
     min-height: 33px;
     top: 2687px;

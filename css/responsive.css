@@ -10,9 +10,9 @@
 
 @media only screen and (min-width: 425px),
 only screen and (min-width: 813px) and (orientation: landscape) {
-footer {
-    top: 2016px;
-}
+    footer {
+        top: 929px;
+    }
 }
 
 
@@ -49,28 +49,43 @@ only screen and (min-width: 700px) and (orientation: landscape) {
     .jumbotron {
         height: 600px !important;
     }
-#banner {
-    top: 190px;
-}
-   #button-box {
-    top: 500px;
-}
+    #banner {
+        top: 190px;
+    }
+    #button-box {
+        top: 500px;
+    }
     li {
         font-size: 25px;
     }
-#navigation {
-    top: 0;
-    left: 261px;
-}
+    #navigation {
+        top: 0;
+        left: 261px;
+    }
     #down-arrow {
         top: 472px;
     }
     .jumbotron {
-    height: 600px !important;
-}
+        height: 600px !important;
+    }
 }
 
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+    .jumbotron {
+        height: 468px !important;
+    }
+    #body-mask {
+        height: 794px;
+    }
+    #button-box {
+        left: 28%;
+        top: 400px;
+    }
+    #down-arrow {
+        top: 677px !important;
+        left: 460px;
+    }
+}
 
 @media only screen and (min-width: 1366px) {}
 
@@ -117,12 +132,12 @@ only screen and (min-width: 700px) and (orientation: landscape) {
         height: 844px;
         top: 97px;
     }
-  #down-arrow {
-    top: 786px !important;
-    left: 937px;
-    position: absolute;
-    width: 60px;
-}
+    #down-arrow {
+        top: 786px !important;
+        left: 937px;
+        position: absolute;
+        width: 60px;
+    }
     .col-sm-6 {
         width: 33% !important;
         left: 10px;
