@@ -1,4 +1,28 @@
-@media only screen and (min-width: 340px) {}
+@media only screen and (min-width: 340px),
+only screen and (min-width: 640px) and (orientation: landscape) {
+    .jumbotron {
+        height: 600px !important;
+    }
+    #banner {
+        top: 190px;
+    }
+    #button-box {
+        top: 400px;
+    }
+    li {
+        font-size: 25px;
+    }
+    #navigation {
+        width: 507px;
+        height: 40px;
+        top: 0;
+    }
+    #down-arrow {
+        top: 472px;
+    }
+}
+
+}
 
 @media only screen and (min-width: 360px) {}
 
