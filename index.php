@@ -51,9 +51,9 @@
 
     </div>
 
+<a href="#bottom"><img id="down-arrow" src="imgs/down-arrow-2.png"></a>
 
-
-    <div id="body-mask"> <a href="#bottom"><img id="down-arrow" src="imgs/down-arrow-2.png"></a></div>
+<!--    <div id="body-mask"> </div>-->
     <section>
 
         <div class="row">

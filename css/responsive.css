@@ -1,3 +1,4 @@
+/*
 @media only screen and (min-width: 340px),
 only screen and (min-width: 640px) and (orientation: landscape) {
     .jumbotron {
@@ -39,36 +40,69 @@ only screen and (min-width: 813px) and (orientation: landscape) {
     }
 }
 
+*/
 
 /*Medium adjusment*/
 
 @media only screen and (min-width: 768px),
 only screen and (min-width: 700px) and (orientation: landscape) {
-    .jumbotron {
-        height: 600px !important;
+    
+    #bottom{
+            top: 48px;
     }
-    #banner {
-        top: 190px;
+    
+    .caption > p {
+    font-size: 17px;
+}
+    
+    #location{
+        top: 10px;
     }
-    #button-box {
-        top: 400px;
-    }
-    li {
-        font-size: 25px;
-    }
-    #navigation {
-        width: 507px;
-        height: 40px;
+    
+    #googleMap{
         top: 0;
     }
-    #down-arrow {
-        top: 472px;
+    
+    #navigation{
+            left: 52px;
+        top: 0;
     }
+    
+    
+    li{
+        font-size: 27px;
+    }
+    
+    #banner{
+        top: 160px;
+    }
+    
+    .jumbotron {
+        height: 580px !important;
+    }
+    
+    
+    #down-arrow {
+        top: 450px !important;
+    }
+    
+    #button-box{
+        top: 373px;
+    }
+    
+    
+    
+   copyright {
+    font-size: 15px;
+    top: 10px;
+}
+ 
 }
 
 
 /*Medium adjusment*/
 
+/*
 @media only screen and (min-width: 800px) {
     .jumbotron {
         height: 600px !important;
@@ -93,21 +127,65 @@ only screen and (min-width: 700px) and (orientation: landscape) {
         height: 600px !important;
     }
 }
+*/
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
+    #bottom{
+            top: 48px;
+    }
+    
+    .caption > p {
+    font-size: 14px;
+}
+    
+    #location{
+        top: 10px;
+    }
+    
+    #googleMap{
+        top: 0;
+    }
+    
+    #navigation{
+            left: 52px;
+        top: 0;
+    }
+    
+    
+    li{
+        font-size: 27px;
+    }
+    
+    #banner{
+            top: 110px;
+    }
+    
     .jumbotron {
-        height: 468px !important;
+       height: 410px !important;
+}
     }
-    #body-mask {
-        height: 794px;
+    
+    
+ #down-arrow {
+    top: 290px !important;
+    left: 427px;
+}
+    
+    #button-box{
+            top: 273px;
+
     }
-    #button-box {
-        left: 28%;
-        top: 400px;
-    }
-    #down-arrow {
-        top: 677px !important;
-        left: 460px;
+    
+    
+    
+   copyright {
+    font-size: 15px;
+    top: 10px;
+}
+    
+    footer{
+            top: 709px;
+
     }
 }
 
@@ -118,17 +196,21 @@ only screen and (min-width: 700px) and (orientation: landscape) {
         height: 408px !important;
     }
     section {
-        top: 890px;
-    }
-    #banner {
-        top: 150px;
-        left: 552px;
-        width: 880px;
+    top: 350px;
+}
+   #banner {
+    top: 150px;
+    left: 262px;
+    width: 880px;
+}
+    
+    h3{
+        font-size: 15px !important;
     }
     #button-box {
-        top: 310px;
-        left: 730px;
-    }
+    top: 310px;
+    left: 500px;
+}
     #button-one {
         top: 400px;
         left: 730px;
@@ -156,12 +238,11 @@ only screen and (min-width: 700px) and (orientation: landscape) {
         height: 844px;
         top: 97px;
     }
-    #down-arrow {
-        top: 786px !important;
-        left: 937px;
-        position: absolute;
-        width: 60px;
-    }
+#down-arrow {
+    top: 355px !important;
+    left: 707px;
+    width: 60px;
+}
     .col-sm-6 {
         width: 33% !important;
         left: 10px;
@@ -170,9 +251,9 @@ only screen and (min-width: 700px) and (orientation: landscape) {
         top: 50px;
         height: 560px;
     }
-    footer {
-        top: 941px;
-    }
+   footer {
+    top: 372px !important;
+}
     copyright {
         top: 11px;
         left: 46%;
