@@ -48,7 +48,7 @@ body {
 }
 
 #button-box {
-    position: fixed;
+    position: relative;
     /* display: block; */
     width: 485px;
     height: 81px;
@@ -112,8 +112,14 @@ body {
     height: 80px;
     /*    border: 2px solid green;*/
     /* bottom: 108px; */
-    top: 52px;
+    top: 0;
 }
+
+ol,
+li {
+    display: inline;
+}
+
 
 li {
     position: relative;
@@ -123,12 +129,6 @@ li {
     padding: 30px;
     text-align: center;
 }
-
-ol,
-li {
-    display: inline;
-}
-
 .caption > p {
     font-size: 20px;
 }
@@ -145,20 +145,22 @@ img {
     top: 20px;
 }
 
+/*
 hr {
-    background-color: red;
+    background-color: rgba(255, 69, 0, 0.44);
 }
+*/
 
 #bottom {
     position: relative;
     top: 88px;
-    border: 1px solid #665496;
+    border: 1px solid rgba(255, 69, 0, 0.44);
 }
 
 #location {
     position: relative;
     border: 2px solid transparent;
-    border-bottom-color: rgb(102, 84, 150);
+       border-bottom-color: rgba(255, 69, 0, 0.44);
     width: 100%;
     float: left;
     height: 133px;
@@ -180,7 +182,7 @@ section {
     min-height: auto;
     background-size: cover;
     background-repeat: no-repeat;
-    top: 428px;
+    top: 600px;
 }
 
 .row {
@@ -230,7 +232,7 @@ footer {
     position: relative;
     width: 100%;
     min-height: 33px;
-    top: 460px !important;
+    top: 619px !important;
     /*    border: 2px solid red;*/
     left: 0;
     background-color: darkslategray;

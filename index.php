@@ -33,8 +33,6 @@
             </ol>
     </nav>
 
-
-    </div>
 <!--SCRZ BANNER LOGO-->
     <img id="banner" src="imgs/scrz-logo-4.png">
     
@@ -50,8 +48,10 @@
 
 
     </div>
+    </div>
 
-<a href="#bottom"><img id="down-arrow" src="imgs/down-arrow-2.png"></a>
+
+<!--<a href="#bottom"><img id="down-arrow" src="imgs/down-arrow-2.png"></a>-->
 
 <!--    <div id="body-mask"> </div>-->
     <section>
@@ -62,7 +62,8 @@
                     <img src="imgs/free-code-image.jpg" alt="...">
                     <div class="caption">
                         <h3>Who we are</h3>
-                        <p>We are a collective, movement, friends and a team. We are tinker'ers, volunteers, professionals, and leaders that come to together for a cause to help others improve their code and help businesses and individuals get themselves known on the World Wide Web. We share our ideas and work together to improve ourselves and build greatness. SCRZ Development is about the collaboration of the ideas from individuals that aim to make a difference.</p>
+                        
+                        <p>We are a collective, movement, friends and a team. We are entrepreneurs, volunteers, professionals, and leaders that come to together for a cause to help others improve their code while helping businesses and individuals get themselves known on the World Wide Web. We share our ideas and work together to improve ourselves and build greatness. SCRZ Development is about the collaboration of the ideas from individuals that aim to make a difference.</p>
 
                     </div>
                 </div>
