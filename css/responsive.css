@@ -86,9 +86,14 @@ only screen and (min-width: 949px) and (orientation: landscape) {
     #googleMap {
         top: 0;
     }
-    copyright {
-        left: 32%;
+    footer{
+        top:430px !important;
     }
+ copyright {
+    left: 33%;
+    font-size: 15px;
+    top: 13px;
+}
 }
 
 @media only screen and (min-width: 576px),
@@ -142,9 +147,11 @@ only screen and (min-width: 949px) and (orientation: landscape) {
     #googleMap {
         top: 0;
     }
-    copyright {
-        left: 32%;
-    }
+copyright {
+    left: 33%;
+    font-size: 15px;
+    top: 13px;
+}
 }
 
 @media only screen and (min-width: 600px),
@@ -152,6 +159,25 @@ only screen and (min-width: 949px) and (orientation: landscape) {
     .jumbotron {
         height: 582px;
     }
+    
+   
+}
+
+@media only screen and (min-width: 700px),
+    only screen and (min-width: 949px) and (orientation: landscape) {
+        .row{
+            display: block;
+        }
+        
+        .col-md-4{
+            width: 50%;
+            flex-grow: 1
+        }
+        .col-4{
+            width: 100%;
+        flex-grow: 3;
+    }   
+        
 }
 
 
@@ -199,10 +225,11 @@ only screen and (min-width: 700px) and (orientation: landscape) {
         height: 48px;
         left: 0;
     }
-    copyright {
-        font-size: 15px;
-        top: 10px;
-    }
+copyright {
+    left: 40%;
+    font-size: 15px;
+    top: 13px;
+}
 }
 
 
