@@ -36,25 +36,29 @@ only screen and (min-width: 640px) and (orientation: landscape) {
 
 @media only screen and (min-width: 434px),
 only screen and (min-width: 949px) and (orientation: landscape) {
+    section{
+        top:430px;
+    }
+    
     #navigation {
         width: 516px;
         height: 44px;
         left: 16px;
     }
     li {
-        font-size: 27px;
+        font-size: 25px;
     }
     #banner {
-        width: 80%;
-        top: 188px;
-        left: 5%;
-    }
-    #button-box {
-        width: 335px;
-        height: 48px;
-        top: 343px;
-        left: 20%;
-    }
+    width: 82%;
+    top: 150px;
+    left: 7%;
+}
+   #button-box {
+    width: 335px;
+    height: 48px;
+    top: 245px;
+    left: 0;
+}
     .button-one,
     .button-two {
         width: 140px;
@@ -177,7 +181,7 @@ only screen and (min-width: 700px) and (orientation: landscape) {
         left: 0px !important;
     }
     li {
-        font-size: 27px;
+        font-size: 25px;
     }
     #banner {
         top: 150px;
@@ -215,7 +219,7 @@ only screen and (min-width: 700px) and (orientation: landscape) {
         top: 245px;
     }
     li {
-        font-size: 27px;
+        font-size: 25px;
     }
     #navigation {
         top: 0;
@@ -248,7 +252,7 @@ only screen and (min-width: 700px) and (orientation: landscape) {
         top: 0;
     }
     li {
-        font-size: 27px;
+        font-size: 25px;
     }
     #banner {
         top: 150px;
