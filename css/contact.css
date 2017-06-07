@@ -1,0 +1,16 @@
+section {
+    top: 770px;
+    position: absolute;
+    left: 5%;
+}
+
+#banner {
+    top: 110px;
+    left: 30%;
+    max-width: 925px;
+}
+
+
+footer {
+    top: 1232px !important;
+}

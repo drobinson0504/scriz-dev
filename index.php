@@ -74,7 +74,7 @@
                     <img src="imgs/free-code-image.jpg" alt="...">
                     <div class="caption">
                         <h3>What we do</h3>
-                        <p>Lorem ipsum dolor sit amet, et propriae percipit his, decore partem accusata ea sea, verterem repudiandae sed ne. An vidit fabulas fuisset per, movet deseruisse theophrastus ut per. Ad libris partiendo aliquando sed. Cu quodsi aeterno eos, usu omnis possit civibus ne, eam ne veri periculis. Ut usu error pericula molestiae, expetendis consectetuer vis ei.</p>
+                        <p>Lorem ipsum dolor sit amet, et propriae percipit his, decore partem accusata ea sea, verterem repudiandae sed ne. An vidit fabulas fuisset per, movet deseruisse theophrastus ut per. Ad libris partiendo aliquando sed. Cu quodsi aeterno eos, usu omnis possit civibus ne, eam ne veri periculis. Ut usu error pericula molestiae, expetendis consectetuer vis ei. </p>
 
                     </div>
                 </div>

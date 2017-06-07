@@ -36,10 +36,9 @@ only screen and (min-width: 640px) and (orientation: landscape) {
 
 @media only screen and (min-width: 434px),
 only screen and (min-width: 949px) and (orientation: landscape) {
-    section{
-        top:430px;
+    section {
+        top: 430px;
     }
-    
     #navigation {
         width: 516px;
         height: 44px;
@@ -49,16 +48,16 @@ only screen and (min-width: 949px) and (orientation: landscape) {
         font-size: 25px;
     }
     #banner {
-    width: 82%;
-    top: 150px;
-    left: 7%;
-}
-   #button-box {
-    width: 335px;
-    height: 48px;
-    top: 245px;
-    left: 0;
-}
+        width: 82%;
+        top: 150px;
+        left: 7%;
+    }
+    #button-box {
+        width: 335px;
+        height: 48px;
+        top: 245px;
+        left: 0;
+    }
     .button-one,
     .button-two {
         width: 140px;
@@ -80,20 +79,20 @@ only screen and (min-width: 949px) and (orientation: landscape) {
         top: 0;
     }
     #location {
-        height: 200px;
-        top: 0;
+        height: 150px;
+        top: -40px;
     }
     #googleMap {
-        top: 0;
+        top: -60px;
     }
-    footer{
-        top:430px !important;
+    footer {
+        top: 391px !important;
     }
- copyright {
-    left: 33%;
-    font-size: 15px;
-    top: 13px;
-}
+    copyright {
+        left: 33%;
+        font-size: 15px;
+        top: 13px;
+    }
 }
 
 @media only screen and (min-width: 576px),
@@ -138,20 +137,23 @@ only screen and (min-width: 949px) and (orientation: landscape) {
         font-size: 30px !important;
     }
     #bottom {
-        top: 0;
+        top: 30px;
     }
     #location {
-        height: 200px;
+        height: 150px;
         top: 0;
     }
     #googleMap {
         top: 0;
     }
-copyright {
-    left: 33%;
-    font-size: 15px;
-    top: 13px;
-}
+    copyright {
+        left: 33%;
+        font-size: 15px;
+        top: 13px;
+    }
+    footer {
+        top: 447px !important;
+    }
 }
 
 @media only screen and (min-width: 600px),
@@ -159,25 +161,21 @@ only screen and (min-width: 949px) and (orientation: landscape) {
     .jumbotron {
         height: 582px;
     }
-    
-   
 }
 
 @media only screen and (min-width: 700px),
-    only screen and (min-width: 949px) and (orientation: landscape) {
-        .row{
-            display: block;
-        }
-        
-        .col-md-4{
-            width: 50%;
-            flex-grow: 1
-        }
-        .col-4{
-            width: 100%;
+only screen and (min-width: 949px) and (orientation: landscape) {
+    .row {
+        display: block;
+    }
+    .col-md-4 {
+        width: 50%;
+        flex-grow: 1
+    }
+    .col-4 {
+        width: 100%;
         flex-grow: 3;
-    }   
-        
+    }
 }
 
 
@@ -185,21 +183,35 @@ only screen and (min-width: 949px) and (orientation: landscape) {
 
 @media only screen and (min-width: 768px),
 only screen and (min-width: 700px) and (orientation: landscape) {
+    .row {
+        display: flex;
+        max-width: 1277px;
+    }
+    .col-sm-6 {
+        width: 50% !important;
+        flex-grow: 1;
+    }
+    .col-4 {
+        flex-grow: 3;
+    }
     #bottom {
-        top: 48px;
+        top: 98px;
         width: 90%;
     }
     .caption > p {
-        font-size: 17px;
+        font-size: 18px;
+    }
+    #location p {
+        font-size: 18px;
     }
     #location {
-        top: 10px;
+        top: 62px;
         width: 91%;
         left: 45px;
-        height: 148px;
+        height: 128px;
     }
     #googleMap {
-        top: 0;
+        top: 40px;
     }
     #navigation {
         width: 516px;
@@ -225,11 +237,14 @@ only screen and (min-width: 700px) and (orientation: landscape) {
         height: 48px;
         left: 0;
     }
-copyright {
-    left: 40%;
-    font-size: 15px;
-    top: 13px;
-}
+    copyright {
+        left: 40%;
+        font-size: 15px;
+        top: 13px;
+    }
+    footer {
+        top: 439px !important;
+    }
 }
 
 
@@ -252,8 +267,22 @@ copyright {
         top: 0;
         left: 261px;
     }
-    #down-arrow {
-        top: 472px;
+    #bottom {
+        top: 98px;
+        width: 90%;
+    }
+    #location {
+        top: 62px;
+        width: 91%;
+        left: 45px;
+        height: 128px;
+    }
+    #googleMap {
+        top: 40px;
+        width: 91%;
+    }
+    footer {
+        top: 451px !important;
     }
 }
 
@@ -262,17 +291,21 @@ copyright {
         top: 400px;
     }
     #bottom {
-        top: 48px;
-        width: 90%;
+        top: 228px;
+        width: 96%;
     }
     .caption > p {
-        font-size: 14px;
+        font-size: 18px;
     }
     #location {
-        top: 10px;
+        top: 202px;
+        width: 96.3%;
+        left: 24px;
+        height: 128px;
     }
     #googleMap {
-        top: 0;
+        top: 170px;
+        width: 96.8%;
     }
     #navigation {
         left: 52px;
@@ -281,11 +314,11 @@ copyright {
     li {
         font-size: 25px;
     }
- #banner {
-    top: 130px;
-    left: 15%;
-    max-width: 925px;
-}
+    #banner {
+        top: 130px;
+        left: 15%;
+        max-width: 925px;
+    }
     .jumbotron {
         height: 410px !important;
     }
@@ -295,7 +328,7 @@ copyright {
         width: 10%;
     }
     #button-box {
-        top: 245px ;
+        top: 245px;
         left: 0 !important;
     }
     copyright {
@@ -303,7 +336,7 @@ copyright {
         top: 10px;
     }
     footer {
-        top: 709px;
+        top: 572px !important;
     }
 }
 
@@ -336,20 +369,20 @@ copyright {
         top: 30px;
         width: 95%;
     }
- #location {
-    width: 96%;
-    left: 30px;
-    top: 0px;
-    height: 115px;
-}
+    #location {
+        width: 96%;
+        left: 30px;
+        top: 0px;
+        height: 115px;
+    }
     li {
         font-size: 25px;
     }
-      #banner {
-    top: 110px;
-    left: 25%;
-    max-width: 925px;
-}
+    #banner {
+        top: 110px;
+        left: 25%;
+        max-width: 925px;
+    }
     #navigation {
         width: 507px;
         height: 40px;
@@ -372,21 +405,19 @@ copyright {
         left: 10px;
     }
     .row {
-    top: 50px;
-    height: 627px;
-    max-width: 2030px;
-   
-}
+        top: 50px;
+        height: 627px;
+        max-width: 2030px;
+    }
     .caption > p {
         font-size: 17px;
     }
-    
     #googleMap {
-    top: 0;
-    max-width: 96%;
-}
+        top: 0;
+        max-width: 96%;
+    }
     footer {
-        top: 372px !important;
+        top: 362px !important;
     }
     copyright {
         top: 11px;
@@ -394,8 +425,6 @@ copyright {
         font-size: 15px !important;
     }
 }
-
- 
 
 @media only screen and (min-width: 2560px) {
     .jumbotron {
@@ -426,17 +455,17 @@ copyright {
     }
     #bottom {
         top: 80px;
-        width: 96.7%;
+        width: 85.7%;
     }
     #location {
-        width: 97%;
-        left: 36px;
+        width: 86%;
+        left: 161px;
         top: 40px;
         height: 115px;
     }
     #googleMap {
         top: 12px;
-        width: 97%;
+        width: 86%;
     }
     li {
         font-size: 25px;
@@ -465,6 +494,7 @@ copyright {
     .row {
         top: 50px;
         height: 560px;
+        left: 140px;
     }
     .caption > p {
         font-size: 17px;
