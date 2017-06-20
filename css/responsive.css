@@ -517,7 +517,7 @@ only screen and (min-width: 700px) and (orientation: landscape) {
     }
     #banner {
         top: 111px;
-        left: 772px;
+        left: 422px;
         width: 1072px;
     }
     h3 {
@@ -575,7 +575,7 @@ only screen and (min-width: 700px) and (orientation: landscape) {
     .row {
         top: 50px;
         height: 560px;
-        left: 140px;
+        left: 0;
     }
     .caption > p {
         font-size: 17px;
