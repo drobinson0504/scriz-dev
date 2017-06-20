@@ -71,6 +71,7 @@ only screen and (min-width: 949px) and (orientation: landscape) {
     }
     .row {
         left: 0;
+       
     }
     h3 {
         font-size: 30px !important;
