@@ -15,35 +15,55 @@
 
 <body>
     <div class="jumbotron">
-        <!--    SCRZ CIRLCE LOGO-->
+        <!--    SCRZ CIRCLE LOGO-->
         <!--        <img id='logo' src="imgs/scrz-logo-circle-detail-2.png">-->
-        <nav id="navigation">
+        <!-- <nav id="navigation">
             <ol>
                 <li> <a href="index.html">About</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
             </ol>
-        </nav>
-        <!--SCRZ BANNER LOGO--><img id="banner" src="imgs/scrz-logo-4.png">
+        </nav> -->
+        <!--SCRZ BANNER LOGO--><a href="index.html"><img id="banner" src="imgs/scrz-logo-4.png"></a>
         <!--
     <a href="#bottom">
     <div id="down-arrow"></div></a>
 -->
         <div id='button-box'>
-            <div class="button-one">Need a website > </div>
-            <div class="button-two">Looking to hire > </div>
+            <div class="button-one"><a href="contact.html">Need a website</a></div>
+            <div class="button-two"><a href="portfolio.html">Looking to hire</a></div>
         </div>
     </div>
     
     
     <section>
-            <h3>CONTACT PAGE COMING SOON!</h3>
+
+        <h3>Please enter your information to request our services.  Also please describe in detail the services you wish for us to provide in your message.  Thanks.</h3>
+
+        <br /><br/>
+
+        <form action="handler.php" method="post">
+
+        <input type="text" placeholder="First Name" size="30" name="first_name"><br><br>
+        
+        <input type="text" placeholder="Last Name" size="30" name="last_name"><br><br>
+
+        <input type="text" placeholder="E-mail" size="30" name="email"><br><br>
+
+        <textarea rows="5" placeholder="Message" name="message" cols="30"></textarea><br><br>
+
+        <input type="submit" name="submit" value="Submit">
+
+        </form>
     </section>
     
     
     <footer>
         <copyright>&copy; SCRZ Development 2017</copyright>
     </footer>
+
+    
     <script src="js/script.js"></script>
+    
     <!--    GOOGLE API LINKAGE-->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy_4rN3JIrl878Te092Tx06AD-_Qy0TxI&callback=myMap"></script>
 </body>

@@ -10,6 +10,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!--    THIS IS JUST THE BASIC TITLE UNTIL WE CHOOSE WHAT WHAT WE REALLY WANT TO CALL OURSELVES-->
+
+    <style>
+.floating-box {
+  float: left;
+  text-align: center;
+  width:  410px;
+  height:  475px;
+  position: relative;
+  padding: 5px 5px 5px 5px;
+  margin:  10px;
+  border:  3px solid #FFFFFF;
+}
+
+
+
+</style>
     <title>SCRZ DEVELOPMENT</title>
 </head>
 
@@ -17,32 +33,68 @@
     <div class="jumbotron">
         <!--    SCRZ CIRLCE LOGO-->
         <!--        <img id='logo' src="imgs/scrz-logo-circle-detail-2.png">-->
-        <nav id="navigation">
+        <!-- <nav id="navigation">
             <ol>
                 <li> <a href="index.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ol>
-        </nav>
-        <!--SCRZ BANNER LOGO--><img id="banner" src="imgs/scrz-logo-4.png">
+        </nav> -->
+        <!--SCRZ BANNER LOGO--><a href="index.html"><img id="banner" src="imgs/scrz-logo-4.png"></a>
         <!--
     <a href="#bottom">
     <div id="down-arrow"></div></a>
 -->
         <div id='button-box'>
-            <div class="button-one">Need a website > </div>
-            <div class="button-two">Looking to hire > </div>
+            <div class="button-one"><a href="contact.html">Need a website</a></div>
+            <div class="button-two"><a href="portfolio.html">Looking to hire</a></div>
         </div>
     </div>
     
     
     <section>
-            <h3>PAGE COMING SOON!</h3>
+           <h2>Click any developer's picture to view his or her portfolio</h2>
+
+           <br /> <br /> 
+
+        <div class="floating-box">
+            <h3>Donald Robinson II</h3>
+                <img src="imgs/donimg.jpg" />
+                <br /><br />
+                <p>Experienced web developer designer, musician, filmmaker, all around creative specialist.</p>
+        </div>
+            
+
+        <div class="floating-box">
+            <h3>Marc Cook</h3>
+                <img src="imgs/marcimg.jpg" />
+                <br /><br />
+                <p>I am an ambitious front-end web developer with the desire and passion to build and improve. Inspired by many in hope to inspire many more.</p>
+        </div>
+
+
+
+        <div class="floating-box">
+            <h3>Cameron Shurney</h3>
+                <img src="imgs/camimg.jpg" />
+                <br /><br />
+                <p>Developer with a passion for bringing code to life.</p>
+        </div>
+
+        <div class="floating-box">
+            <h3>Neal Simms</h3>
+                <img src="imgs/nealimg.jpg">
+                <br /><br />
+                <p>Former service industry professional, touring and recording musician, experienced in entertainment promotion and creative arts, bringing a unique and varied skill set to the field of front end web development.</p>
+        </div>    
+        
     </section>
     
-    
-    <footer>
-        <copyright>&copy; SCRZ Development 2017</copyright>
-    </footer>
+        <footer>
+            <copyright>&copy; SCRZ Development 2017</copyright>
+        </footer>
+
+    <script src="lib/jquery-3.1.1.js"></script>
+    <script src="myjquery.js"></script>
     <script src="js/script.js"></script>
     <!--    GOOGLE API LINKAGE-->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy_4rN3JIrl878Te092Tx06AD-_Qy0TxI&callback=myMap"></script>

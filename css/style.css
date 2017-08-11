@@ -96,6 +96,9 @@ body {
     z-index: 100;
 }
 
+a {
+    color:  #FFFFFF !important;
+}
 
 /*
 #down-arrow:hover{
@@ -192,7 +195,7 @@ section {
     min-height: auto;
     margin: 10px;
     left: 18px;
-    
+    flex-wrap: wrap;
 }
 
 .thumbnail {

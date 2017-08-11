@@ -11,6 +11,31 @@ section {
 }
 
 
+h2 {
+	color:  #FFFFFF !important;
+}
+
+
+p {
+	color:  #FFFFFF;
+}
+
+img {
+	box-sizing:  border-box;
+}
+
+img {
+  padding:  0px;
+  -moz-border-radius:  100px;
+  -ms-border-radius:  100px;
+  -webkit-border-radius:  100px;
+  -o-border-radius:  100px;
+  border-radius: 100px;
+  
+}
+
+
+
 footer {
-    top: 1232px !important;
+    top: 1900px !important;
 }

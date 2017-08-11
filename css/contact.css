@@ -2,6 +2,21 @@ section {
     top: 770px;
     position: absolute;
     left: 5%;
+    font-size: 18px;
+}
+
+form {
+	font-size:  20px;
+	color:  #000000;
+}
+
+p {
+	font-size:  24px;
+	font-color:  #FFFFFF;
+}
+
+a {
+	font-color:  #FFFFFF;
 }
 
 #banner {
@@ -12,5 +27,5 @@ section {
 
 
 footer {
-    top: 1232px !important;
+    top: 1450px !important;
 }

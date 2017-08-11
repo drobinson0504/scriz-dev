@@ -1,0 +1,20 @@
+section {
+    top: 100px;
+    position: absolute;
+    left: 5%;
+}
+
+p {
+	color:  #FFFFFF;
+}
+
+a {
+	text-align:  center;
+	font-size:  24px;
+	color:  #FFFFFF;
+}
+
+
+footer {
+    top: 550px !important;
+}
